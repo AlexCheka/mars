@@ -1,0 +1,25 @@
+.video-mars {
+    min-width: 70%;
+}
+
+.text-mars {
+    max-width: 30%
+}
+
+@media (max-width: 1000px) {
+    .text-mars {
+        min-width: 100%
+    }
+    .video-mars {
+        min-width: 100%;
+    }
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.card-body {
+    background-color: orange;
+}
